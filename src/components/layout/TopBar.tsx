@@ -16,7 +16,7 @@ const TopBar = ({listpage}:{listpage:boolean}) => {
                         <FontAwesomeIcon icon={faSearch} />
                     </div>
                 </div>
-                {!listpage && <button className="list-btn">목록으로 </button>}
+                {!listpage && <button className="list-btn">목록으로</button>}
             </div>
         </S.TopHeader>
     )
